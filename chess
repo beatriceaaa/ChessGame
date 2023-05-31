@@ -10,7 +10,7 @@ board = [['r', 'n', 'b', 'q', 'k', 'b', 'n', 'r'],
          ['P', 'P', 'P', 'P', 'P', 'P', 'P', 'P'],
          ['R', 'N', 'B', 'Q', 'K', 'B', 'N', 'R']]
 
-# Step 2: Create the pieces
+# Step 2: Create the chess pieces
 class Piece:
     def __init__(self, color, position):
         self.color = color
